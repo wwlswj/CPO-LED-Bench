@@ -1,0 +1,84 @@
+project:
+  name: CPO-STCM
+  version: "1.0.0"
+  random_seed: 20261103
+
+paths:
+  parent_root: "D:/Codex/AnomalyDetection/Research/POWICM"
+  charge_root: "D:/Codex/AnomalyDetection/充电"
+  poweroff_root: "D:/Codex/AnomalyDetection/关机"
+  packed_array: "D:/Codex/AnomalyDetection/Research/POWICM/datasets/DynamicReal-v1/packed/dynamic_windows_v1.npy"
+  source_manifest: "D:/Codex/AnomalyDetection/Research/POWICM/datasets/DynamicReal-v1/packed/packed_manifest_curated.csv"
+  static_detector_weights: "D:/Codex/AnomalyDetection/Research/POWICM/experiments/static_yolo26/yolo26s_v1/weights/best.pt"
+  powicm_calibration: "D:/Codex/AnomalyDetection/Research/POWICM/experiments/powicm/oracle_v1/calibration.json"
+
+data:
+  input_height: 100
+  input_width: 300
+  sequence_length: 10
+  array_rows: 1
+  array_columns: 4
+  static_crop_height: 600
+  static_crop_width: 165
+  normal_calibration_fraction: 0.20
+  temporal_transforms:
+    - reverse
+    - shuffle_a
+    - shuffle_b
+    - freeze_first
+    - freeze_middle
+    - drop_one
+    - drop_three
+
+model:
+  embedding_dim: 256
+  lstm_hidden_dim: 256
+  decoder_feature_channels: 128
+  decoder_feature_height: 4
+  decoder_feature_width: 8
+  dropout: 0.10
+  mask_probability: 0.35
+  mask_max_frames: 3
+
+training:
+  batch_size: 8
+  epochs: 60
+  patience: 12
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  num_workers: 0
+  device: 0
+  loss:
+    reconstruction: 1.0
+    masked_reconstruction: 0.8
+    ssim: 0.2
+    temporal: 0.1
+    order: 0.25
+
+scoring:
+  top_k_frames: 3
+  static_detector_confidence: 0.0001
+  static_minimum_slot_confidence: 0.005
+  static_required_presence_rate: 0.85
+  target_false_positive_rates:
+    - 0.01
+    - 0.05
+  fusion_weight_grid:
+    - 0.0
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.6
+    - 0.7
+    - 0.8
+    - 0.9
+    - 1.0
+  static_frame_offsets:
+    - 0
+    - 3
+    - 6
+    - 9
+  persistent_missing_frames: 3
+

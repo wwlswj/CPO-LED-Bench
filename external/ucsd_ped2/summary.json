@@ -1,0 +1,49 @@
+{
+  "dataset": "UCSD Ped2",
+  "source_url": "http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm",
+  "height": 96,
+  "width": 144,
+  "sequence_length": 10,
+  "windows": 4280,
+  "roles": {
+    "normal_train": 1970,
+    "validation": 140,
+    "normal_calibration": 280,
+    "test": 1890
+  },
+  "train_clips": [
+    "Train001",
+    "Train002",
+    "Train003",
+    "Train004",
+    "Train005",
+    "Train006",
+    "Train007",
+    "Train008",
+    "Train009",
+    "Train010",
+    "Train011",
+    "Train012",
+    "Train013",
+    "Train014",
+    "Train015",
+    "Train016"
+  ],
+  "test_clips": [
+    "Test001",
+    "Test002",
+    "Test003",
+    "Test004",
+    "Test005",
+    "Test006",
+    "Test007",
+    "Test008",
+    "Test009",
+    "Test010",
+    "Test011",
+    "Test012"
+  ],
+  "packed_array": "D:\\Codex\\AnomalyDetection\\Research\\POWICM\\CPO-STCM\\datasets\\external\\UCSDped2-Windows-v1\\ped2_difference_windows.npy",
+  "manifest": "D:\\Codex\\AnomalyDetection\\Research\\POWICM\\CPO-STCM\\datasets\\external\\UCSDped2-Windows-v1\\manifest.csv",
+  "protocol_note": "Each window contains ten absolute difference frames. Test windows are labeled abnormal when any of the eleven corresponding raw frames intersects a non-empty pixel mask."
+}

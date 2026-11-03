@@ -1,0 +1,293 @@
+{
+  "alpha": 0.05,
+  "minimum_stratum_size": 20,
+  "calibration_windows": 274,
+  "calibration_sequence_blocks": 56,
+  "results": {
+    "validation": {
+      "global": {
+        "metrics": {
+          "false_positive_rate": 0.02,
+          "recall": 0.7735767057800956,
+          "f1": 0.8710545632493272,
+          "alarm_rate": 0.6866589773164168
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 210,
+            "normal_windows": 3,
+            "abnormal_windows": 207,
+            "false_positive_rate": 0.0,
+            "recall": 0.9227053140096618
+          },
+          "stratum_1": {
+            "windows": 624,
+            "normal_windows": 78,
+            "abnormal_windows": 546,
+            "false_positive_rate": 0.05128205128205128,
+            "recall": 0.7271062271062271
+          },
+          "stratum_2": {
+            "windows": 1767,
+            "normal_windows": 219,
+            "abnormal_windows": 1548,
+            "false_positive_rate": 0.0091324200913242,
+            "recall": 0.7700258397932817
+          }
+        }
+      },
+      "source_balanced": {
+        "metrics": {
+          "false_positive_rate": 0.02,
+          "recall": 0.7735767057800956,
+          "f1": 0.8710545632493272,
+          "alarm_rate": 0.6866589773164168
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 210,
+            "normal_windows": 3,
+            "abnormal_windows": 207,
+            "false_positive_rate": 0.0,
+            "recall": 0.9227053140096618
+          },
+          "stratum_1": {
+            "windows": 624,
+            "normal_windows": 78,
+            "abnormal_windows": 546,
+            "false_positive_rate": 0.05128205128205128,
+            "recall": 0.7271062271062271
+          },
+          "stratum_2": {
+            "windows": 1767,
+            "normal_windows": 219,
+            "abnormal_windows": 1548,
+            "false_positive_rate": 0.0091324200913242,
+            "recall": 0.7700258397932817
+          }
+        }
+      },
+      "mondrian": {
+        "metrics": {
+          "false_positive_rate": 0.016666666666666666,
+          "recall": 0.7740112994350282,
+          "f1": 0.8715439197455346,
+          "alarm_rate": 0.6866589773164168
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 210,
+            "normal_windows": 3,
+            "abnormal_windows": 207,
+            "false_positive_rate": 0.0,
+            "recall": 0.9227053140096618
+          },
+          "stratum_1": {
+            "windows": 624,
+            "normal_windows": 78,
+            "abnormal_windows": 546,
+            "false_positive_rate": 0.038461538461538464,
+            "recall": 0.6611721611721612
+          },
+          "stratum_2": {
+            "windows": 1767,
+            "normal_windows": 219,
+            "abnormal_windows": 1548,
+            "false_positive_rate": 0.0091324200913242,
+            "recall": 0.7939276485788114
+          }
+        }
+      }
+    },
+    "test": {
+      "global": {
+        "metrics": {
+          "false_positive_rate": 0.043333333333333335,
+          "recall": 0.7747631352282515,
+          "f1": 0.8703434929850025,
+          "alarm_rate": 0.6910755148741419
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 346,
+            "normal_windows": 17,
+            "abnormal_windows": 329,
+            "false_positive_rate": 0.058823529411764705,
+            "recall": 0.78419452887538
+          },
+          "stratum_1": {
+            "windows": 616,
+            "normal_windows": 77,
+            "abnormal_windows": 539,
+            "false_positive_rate": 0.11688311688311688,
+            "recall": 0.7309833024118738
+          },
+          "stratum_2": {
+            "windows": 1660,
+            "normal_windows": 206,
+            "abnormal_windows": 1454,
+            "false_positive_rate": 0.014563106796116505,
+            "recall": 0.7888583218707015
+          }
+        }
+      },
+      "source_balanced": {
+        "metrics": {
+          "false_positive_rate": 0.043333333333333335,
+          "recall": 0.7747631352282515,
+          "f1": 0.8703434929850025,
+          "alarm_rate": 0.6910755148741419
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 346,
+            "normal_windows": 17,
+            "abnormal_windows": 329,
+            "false_positive_rate": 0.058823529411764705,
+            "recall": 0.78419452887538
+          },
+          "stratum_1": {
+            "windows": 616,
+            "normal_windows": 77,
+            "abnormal_windows": 539,
+            "false_positive_rate": 0.11688311688311688,
+            "recall": 0.7309833024118738
+          },
+          "stratum_2": {
+            "windows": 1660,
+            "normal_windows": 206,
+            "abnormal_windows": 1454,
+            "false_positive_rate": 0.014563106796116505,
+            "recall": 0.7888583218707015
+          }
+        }
+      },
+      "mondrian": {
+        "metrics": {
+          "false_positive_rate": 0.03666666666666667,
+          "recall": 0.7782084409991387,
+          "f1": 0.8729468599033816,
+          "alarm_rate": 0.6933638443935927
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 346,
+            "normal_windows": 17,
+            "abnormal_windows": 329,
+            "false_positive_rate": 0.058823529411764705,
+            "recall": 0.78419452887538
+          },
+          "stratum_1": {
+            "windows": 616,
+            "normal_windows": 77,
+            "abnormal_windows": 539,
+            "false_positive_rate": 0.07792207792207792,
+            "recall": 0.6623376623376623
+          },
+          "stratum_2": {
+            "windows": 1660,
+            "normal_windows": 206,
+            "abnormal_windows": 1454,
+            "false_positive_rate": 0.019417475728155338,
+            "recall": 0.8198074277854195
+          }
+        }
+      }
+    },
+    "domain_test": {
+      "global": {
+        "metrics": {
+          "false_positive_rate": 0.34615384615384615,
+          "recall": 0.8043478260869565,
+          "f1": 0.8680351906158358,
+          "alarm_rate": 0.7476190476190476
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 18,
+            "normal_windows": 2,
+            "abnormal_windows": 16,
+            "false_positive_rate": 0.5,
+            "recall": 0.8125
+          },
+          "stratum_1": {
+            "windows": 80,
+            "normal_windows": 10,
+            "abnormal_windows": 70,
+            "false_positive_rate": 0.4,
+            "recall": 0.7714285714285715
+          },
+          "stratum_2": {
+            "windows": 112,
+            "normal_windows": 14,
+            "abnormal_windows": 98,
+            "false_positive_rate": 0.2857142857142857,
+            "recall": 0.826530612244898
+          }
+        }
+      },
+      "source_balanced": {
+        "metrics": {
+          "false_positive_rate": 0.34615384615384615,
+          "recall": 0.8043478260869565,
+          "f1": 0.8680351906158358,
+          "alarm_rate": 0.7476190476190476
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 18,
+            "normal_windows": 2,
+            "abnormal_windows": 16,
+            "false_positive_rate": 0.5,
+            "recall": 0.8125
+          },
+          "stratum_1": {
+            "windows": 80,
+            "normal_windows": 10,
+            "abnormal_windows": 70,
+            "false_positive_rate": 0.4,
+            "recall": 0.7714285714285715
+          },
+          "stratum_2": {
+            "windows": 112,
+            "normal_windows": 14,
+            "abnormal_windows": 98,
+            "false_positive_rate": 0.2857142857142857,
+            "recall": 0.826530612244898
+          }
+        }
+      },
+      "mondrian": {
+        "metrics": {
+          "false_positive_rate": 0.2692307692307692,
+          "recall": 0.7554347826086957,
+          "f1": 0.8424242424242424,
+          "alarm_rate": 0.6952380952380952
+        },
+        "conditional": {
+          "stratum_0": {
+            "windows": 18,
+            "normal_windows": 2,
+            "abnormal_windows": 16,
+            "false_positive_rate": 0.5,
+            "recall": 0.8125
+          },
+          "stratum_1": {
+            "windows": 80,
+            "normal_windows": 10,
+            "abnormal_windows": 70,
+            "false_positive_rate": 0.0,
+            "recall": 0.6142857142857143
+          },
+          "stratum_2": {
+            "windows": 112,
+            "normal_windows": 14,
+            "abnormal_windows": 98,
+            "false_positive_rate": 0.42857142857142855,
+            "recall": 0.8469387755102041
+          }
+        }
+      }
+    }
+  }
+}

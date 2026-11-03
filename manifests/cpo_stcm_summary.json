@@ -1,0 +1,58 @@
+{
+  "samples": 13802,
+  "normal_train_sequences": 454,
+  "normal_calibration_sequences": 105,
+  "roles": {
+    "domain_test": {
+      "animated": 62,
+      "temporal_reverse": 62,
+      "temporal_shuffle_a": 62,
+      "temporal_shuffle_b": 62,
+      "temporal_freeze_first": 62,
+      "temporal_freeze_middle": 62,
+      "temporal_drop_one": 62,
+      "temporal_drop_three": 62,
+      "no_device": 2
+    },
+    "test": {
+      "animated": 600,
+      "temporal_reverse": 600,
+      "temporal_shuffle_a": 600,
+      "temporal_shuffle_b": 600,
+      "temporal_freeze_first": 600,
+      "temporal_freeze_middle": 600,
+      "temporal_drop_one": 600,
+      "temporal_drop_three": 600,
+      "static_animation": 267,
+      "no_device": 231
+    },
+    "normal_train": {
+      "animated": 2267
+    },
+    "validation": {
+      "animated": 594,
+      "temporal_reverse": 594,
+      "temporal_shuffle_a": 594,
+      "temporal_shuffle_b": 594,
+      "temporal_freeze_first": 594,
+      "temporal_freeze_middle": 594,
+      "temporal_drop_one": 594,
+      "temporal_drop_three": 594,
+      "static_animation": 238,
+      "no_device": 234
+    },
+    "normal_calibration": {
+      "animated": 515
+    }
+  },
+  "transforms": {
+    "drop_one": 1256,
+    "drop_three": 1256,
+    "freeze_first": 1256,
+    "freeze_middle": 1256,
+    "none": 5010,
+    "reverse": 1256,
+    "shuffle_a": 1256,
+    "shuffle_b": 1256
+  }
+}

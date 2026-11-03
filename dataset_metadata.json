@@ -1,0 +1,14 @@
+{
+  "name": "CPO-LED Bench",
+  "version": "2.0.0",
+  "status": "public_release_candidate",
+  "license": "CC-BY-4.0",
+  "expanded_windows": 13802,
+  "base_windows": 5010,
+  "dynamic_images": 50100,
+  "static_images": 20040,
+  "natural_test_image_rows": 4392,
+  "external_benchmark": "UCSD Ped2",
+  "source_manifest_sha256": "89d807e62ab0038ff0ce21c2723def2ecc1982d6caa3b2b488b21991bd67b886",
+  "image_index_sha256": "0f7a0825df44e7acfd68d8e3c70a85895ea05f7a7dd7fb9716bc176d55c823b4"
+}

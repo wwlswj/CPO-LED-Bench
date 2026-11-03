@@ -1,0 +1,15 @@
+{
+  "dynamic_windows": 5010,
+  "static_windows": 5010,
+  "dynamic_images": 50100,
+  "static_images": 20040,
+  "dynamic_resolution": [
+    100,
+    300
+  ],
+  "static_resolution": [
+    600,
+    165
+  ],
+  "index": "D:\\Codex\\AnomalyDetection\\Research\\POWICM\\CPO-STCM\\release\\dataset\\CPO-LED-Bench-v2.0\\images\\image_index.csv"
+}

@@ -1,0 +1,11 @@
+role,subclass,base_windows
+domain_test,animated,62
+domain_test,no_device,2
+normal_calibration,animated,515
+normal_train,animated,2267
+test,animated,600
+test,no_device,231
+test,static_animation,267
+validation,animated,594
+validation,no_device,234
+validation,static_animation,238
