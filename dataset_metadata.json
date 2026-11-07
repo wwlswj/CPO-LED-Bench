@@ -1,8 +1,19 @@
 {
   "name": "CPO-LED Bench",
-  "version": "2.0.0",
-  "status": "public_release_candidate",
+  "citation_version": "2.0.1",
+  "data_payload_version": "2.0.0",
+  "status": "metadata_correction_pending_zenodo_doi",
   "license": "CC-BY-4.0",
+  "authors": [
+    "Wanli Wang",
+    "Huafeng Chen",
+    "Xian Wei"
+  ],
+  "archive": {
+    "name": "CPO-LED-Bench-v2.0-full.zip",
+    "size": 395563944,
+    "sha256": "a462f4c144b4675aaeb7ccdc819066653fd9500615843996f941226c05a3b19d"
+  },
   "expanded_windows": 13802,
   "base_windows": 5010,
   "dynamic_images": 50100,
@@ -10,5 +21,6 @@
   "natural_test_image_rows": 4392,
   "external_benchmark": "UCSD Ped2",
   "source_manifest_sha256": "89d807e62ab0038ff0ce21c2723def2ecc1982d6caa3b2b488b21991bd67b886",
-  "image_index_sha256": "0f7a0825df44e7acfd68d8e3c70a85895ea05f7a7dd7fb9716bc176d55c823b4"
+  "image_index_sha256": "0f7a0825df44e7acfd68d8e3c70a85895ea05f7a7dd7fb9716bc176d55c823b4",
+  "data_payload_changed": false
 }
