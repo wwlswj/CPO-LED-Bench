@@ -1,6 +1,6 @@
 {
   "title": "CPO-LED Bench v2.0.1",
-  "description": "Metadata revision of CPO-LED Bench v2.0 with confirmed author order. The data payload remains v2.0.0 and is identified by its published SHA-256. The full archive is stored as twenty binary parts with a reconstruction and checksum guide.",
+  "description": "Metadata revision of CPO-LED Bench v2.0 with confirmed author order. The data payload remains v2.0.0 and is identified by its published SHA-256. The full archive is stored as eighty binary parts with a reconstruction and checksum guide.",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "cc-by-4.0",
