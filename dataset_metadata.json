@@ -12,7 +12,9 @@
   "archive": {
     "name": "CPO-LED-Bench-v2.0-full.zip",
     "size": 395563944,
-    "sha256": "a462f4c144b4675aaeb7ccdc819066653fd9500615843996f941226c05a3b19d"
+    "sha256": "a462f4c144b4675aaeb7ccdc819066653fd9500615843996f941226c05a3b19d",
+    "zenodo_parts": 5,
+    "reconstruction_guide": "RECONSTRUCT_DATASET.md"
   },
   "expanded_windows": 13802,
   "base_windows": 5010,
