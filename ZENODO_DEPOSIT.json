@@ -1,0 +1,42 @@
+{
+  "title": "CPO-LED Bench v2.0.1",
+  "description": "Metadata revision of CPO-LED Bench v2.0 with confirmed author order. The data payload remains v2.0.0 and is identified by its published SHA-256. The full archive is stored as eighty binary parts with a reconstruction and checksum guide.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "2.0.1",
+  "creators": [
+    {
+      "name": "Wang, Wanli",
+      "affiliation": "Jingchu University of Technology"
+    },
+    {
+      "name": "Chen, Huafeng",
+      "affiliation": "Jingchu University of Technology"
+    },
+    {
+      "name": "Wei, Xian",
+      "affiliation": "East China Normal University"
+    }
+  ],
+  "keywords": [
+    "LED screen",
+    "anomaly detection",
+    "temporal consistency",
+    "conformal prediction",
+    "industrial inspection"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wwlswj/CPO-LED-Bench",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.24031262",
+      "relation": "isSupplementedBy",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ]
+}

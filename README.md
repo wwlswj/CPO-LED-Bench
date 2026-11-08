@@ -11,8 +11,19 @@ The complete image archive is published as a GitHub Release asset:
 
 - Archive size: `395,563,944` bytes
 - SHA-256: `a462f4c144b4675aaeb7ccdc819066653fd9500615843996f941226c05a3b19d`
-- Version: `2.0.0`
+- Data payload version: `2.0.0`
+- Citation metadata version: `2.0.1`
 - Licence: CC BY 4.0
+
+Version 2.0.1 is a metadata revision. It corrects the dataset author order and
+binds a persistent dataset DOI. Images, annotations, splits, manifests,
+evidence, model files, and the v2.0.0 archive bytes are unchanged.
+
+- Zenodo version DOI:
+  [10.5281/zenodo.24031281](https://doi.org/10.5281/zenodo.24031281)
+- Zenodo concept DOI:
+  [10.5281/zenodo.24031280](https://doi.org/10.5281/zenodo.24031280)
+- Zenodo record: https://zenodo.org/records/24031281
 
 This repository contains the dataset card, image index, split definitions,
 model-ready manifests, configuration, frozen evaluation reports, and
@@ -80,12 +91,13 @@ subject to their respective terms.
 
 ```bibtex
 @dataset{wang2026cpcoled,
-  author    = {Wang, Wanli and Wei, Xian},
+  author    = {Wang, Wanli and Chen, Huafeng and Wei, Xian},
   title     = {{CPO-LED Bench v2.0}},
   year      = {2026},
-  version   = {2.0.0},
-  publisher = {GitHub},
-  url       = {https://github.com/wwlswj/CPO-LED-Bench}
+  version   = {2.0.1},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24031281},
+  url       = {https://doi.org/10.5281/zenodo.24031281}
 }
 ```
 

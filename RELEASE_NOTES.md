@@ -1,23 +1,25 @@
-# CPO-LED Bench v2.0.0
+# CPO-LED Bench v2.0.1
 
-Initial public image-inclusive release.
+This is a metadata-only citation revision of CPO-LED Bench v2.0.
 
-## Assets
+## Changes
 
-- `CPO-LED-Bench-v2.0-full.zip`
-- Size: `395,563,944` bytes
-- SHA-256: `a462f4c144b4675aaeb7ccdc819066653fd9500615843996f941226c05a3b19d`
+- Dataset authors are listed as Wanli Wang, Huafeng Chen, and Xian Wei.
+- Citation metadata is updated to v2.0.1.
+- The Zenodo record is published with version DOI
+  `10.5281/zenodo.24031281` and concept DOI
+  `10.5281/zenodo.24031280`.
 
-## Contents
+## Unchanged
 
-- 50,100 dynamic difference images
-- 20,040 static LED crops
-- 5,010 spatial base windows
-- 13,802 expanded temporal windows
-- 222 production-derived natural anomalies
-- Source-isolated training, calibration, validation, and test splits
-- Internal and external model checkpoints
-- Frozen evaluation reports
-- UCSD Ped2 derived manifests and reports
+- The v2.0.0 full archive remains at 395,563,944 bytes.
+- The archive SHA-256 remains
+  `a462f4c144b4675aaeb7ccdc819066653fd9500615843996f941226c05a3b19d`.
+- Images, annotations, splits, manifests, evidence, and model files are not
+  modified.
+- The dataset license remains CC-BY-4.0.
 
-The raw UCSD Ped2 images are not redistributed.
+The existing v2.0.0 GitHub tag and Release remain available and immutable.
+
+The v2.0.1 archival record is available at
+https://zenodo.org/records/24031281.
