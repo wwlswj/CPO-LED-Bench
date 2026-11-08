@@ -6,7 +6,12 @@ version: "2.0.1"
 date-released: 2026-11-07
 license: CC-BY-4.0
 repository-code: "https://github.com/wwlswj/CPO-LED-Bench"
-url: "https://github.com/wwlswj/CPO-LED-Bench"
+url: "https://doi.org/10.5281/zenodo.24031281"
+doi: "10.5281/zenodo.24031281"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24031280"
+    description: "Concept DOI for all versions of CPO-LED Bench"
 keywords:
   - LED screen
   - anomaly detection

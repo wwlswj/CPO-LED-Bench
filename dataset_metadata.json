@@ -2,7 +2,10 @@
   "name": "CPO-LED Bench",
   "citation_version": "2.0.1",
   "data_payload_version": "2.0.0",
-  "status": "metadata_correction_pending_zenodo_doi",
+  "status": "published_metadata_revision",
+  "doi": "10.5281/zenodo.24031281",
+  "concept_doi": "10.5281/zenodo.24031280",
+  "zenodo_record": "https://zenodo.org/records/24031281",
   "license": "CC-BY-4.0",
   "authors": [
     "Wanli Wang",

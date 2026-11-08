@@ -16,8 +16,14 @@ The complete image archive is published as a GitHub Release asset:
 - Licence: CC BY 4.0
 
 Version 2.0.1 is a metadata revision. It corrects the dataset author order and
-will bind a persistent dataset DOI. Images, annotations, splits, manifests,
+binds a persistent dataset DOI. Images, annotations, splits, manifests,
 evidence, model files, and the v2.0.0 archive bytes are unchanged.
+
+- Zenodo version DOI:
+  [10.5281/zenodo.24031281](https://doi.org/10.5281/zenodo.24031281)
+- Zenodo concept DOI:
+  [10.5281/zenodo.24031280](https://doi.org/10.5281/zenodo.24031280)
+- Zenodo record: https://zenodo.org/records/24031281
 
 This repository contains the dataset card, image index, split definitions,
 model-ready manifests, configuration, frozen evaluation reports, and
@@ -89,8 +95,9 @@ subject to their respective terms.
   title     = {{CPO-LED Bench v2.0}},
   year      = {2026},
   version   = {2.0.1},
-  publisher = {GitHub},
-  url       = {https://github.com/wwlswj/CPO-LED-Bench}
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24031281},
+  url       = {https://doi.org/10.5281/zenodo.24031281}
 }
 ```
 

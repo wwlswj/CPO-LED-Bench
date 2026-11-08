@@ -6,7 +6,9 @@ This is a metadata-only citation revision of CPO-LED Bench v2.0.
 
 - Dataset authors are listed as Wanli Wang, Huafeng Chen, and Xian Wei.
 - Citation metadata is updated to v2.0.1.
-- A Zenodo deposit record is prepared for a persistent dataset DOI.
+- The Zenodo record is published with version DOI
+  `10.5281/zenodo.24031281` and concept DOI
+  `10.5281/zenodo.24031280`.
 
 ## Unchanged
 
@@ -18,3 +20,6 @@ This is a metadata-only citation revision of CPO-LED Bench v2.0.
 - The dataset license remains CC-BY-4.0.
 
 The existing v2.0.0 GitHub tag and Release remain available and immutable.
+
+The v2.0.1 archival record is available at
+https://zenodo.org/records/24031281.

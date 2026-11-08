@@ -1,5 +1,7 @@
 # Reconstructing the full archive
 
+Persistent record: https://doi.org/10.5281/zenodo.24031281
+
 Zenodo stores the 395,563,944-byte CPO-LED Bench archive as eighty binary parts
 to avoid long single-connection uploads. Concatenate the parts in filename
 order, then verify the published SHA-256.

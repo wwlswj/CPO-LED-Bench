@@ -31,6 +31,12 @@
       "identifier": "https://github.com/wwlswj/CPO-LED-Bench",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.24031262",
+      "relation": "isSupplementedBy",
+      "scheme": "doi",
+      "resource_type": "software"
     }
   ]
 }
